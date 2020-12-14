@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p>Today's date is:</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+        <!-- Timeblocks go here -->
+        <div class="row" id="nine">
+            <div class="col-1 time-block 0-hour" id="9">
+                <p>9:00am</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" id="ten">
+            <div class="col-1 time-block 1-hour" id="10">
+                <p>10:00am</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="eleven">
+            <div class="col-1 time-block 2-hour" id="11">
+                <p>11:00am</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="twelve">
+            <div class="col-1 time-block 3-hour" id="12">
+                <p>12:00pm</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="one">
+            <div class="col-1 time-block 4-hour" id="13">
+                <p>1:00pm</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="two">
+            <div class="col-1 time-block 5-hour" id="14">
+                <p>2:00pm</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="three">
+            <div class="col-1 time-block 6-hour" id="15">
+                <p>3:00pm</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="four">
+            <div class="col-1 time-block 7-hour" id="16">
+                <p>4:00pm</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+        <div class="row" id="five">
+            <div class="col-1 time-block 8-hour" id="17">
+                <p>5:00pm</p>
+            </div>
+            <div class="col-10">
+                <input type="text" class="text-entry" name="text">
+                <button class="col-1 saveBtn btn"><i class="far fa-save"></i></button>
+            </div>
+            <div class="col-1 save-items" id="save-icon-0"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
